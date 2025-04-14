@@ -1,0 +1,103 @@
+.box h2 {
+    color:white;
+}
+
+body {
+    background-image:url(https://img3.akspic.ru/crops/0/1/6/8/6/168610/168610-macos_13_official_stock_wallpaper_dark-1920x1080.jpg);
+}
+
+h1 {
+    position: absolute;
+    right:380px;
+    top:-10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+a {
+    text-decoration: none; /* Remove the underline */
+    color: inherit; /* Inherit the text color from the parent */
+}
+
+.box-container {
+    position: absolute;
+    top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.box  {
+    background-color: #deb371;
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: #ddd;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background-color: rgb(180, 119, 69);
+    border-radius: 10px;
+    border-color: #deb371;
+}
+
+.box h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.box .version {
+    margin: 0;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.disc {
+    position: absolute;
+    top: 10px;
+    right: -220px;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+#logo {
+    cursor: pointer;
+}
+
+.ios {
+    position: absolute;
+    right:875px;
+    top:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.ipos {
+    position: absolute;
+    right:780px;
+    top:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.macos {
+    position: absolute;
+    right:855px;
+    top:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
